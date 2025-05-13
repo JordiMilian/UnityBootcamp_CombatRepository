@@ -29,5 +29,20 @@ public class NotasBootcamp : MonoBehaviour
 
         - Package manager Animation Rigging pa visualitzar bones
         - Parent Constrain esta molt be pa simular pare/fill sense gerarquia
+
+    12/05/2025
+        -Modelo Vista Controlador MVC
+    SOLID
+        1-  SIngle use
+        2- Open /close
+        3- Liskob Clase arma, herede clase que pots tocar una canço, pero el manager no ha de saber sobre l'arma en concret, sino que el base ha de implementar canço?
+
+
+
+
+
+
      */
+
+    
 }

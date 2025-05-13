@@ -121,7 +121,6 @@ public class PLayerController_ForCharacterController : MonoBehaviour
     private void OnMovementInputChange(InputAction.CallbackContext context)
     {
         rawInput = context.ReadValue<Vector2>();
-        Debug.Log($"RawInput: {rawInput}");
     }
 
     private void OnDisable()
