@@ -38,11 +38,36 @@ public class NotasBootcamp : MonoBehaviour
         3- Liskob Clase arma, herede clase que pots tocar una canço, pero el manager no ha de saber sobre l'arma en concret, sino que el base ha de implementar canço?
 
 
+    14/05/2025
+    BreakPoints for debug:
+F9 - create break point
+F10 - go to next line
+F11 para entrar en los detalles de una linea
+F5 continue playing in Unity
+Configuracion del punto de interrupcion
+     - Funcion lambas, muy util para DOtween () => float variable
+    DOTWEEN es en esencia una sola funcion Dotween.TO() que luego se modifica y tal
+    Append - una funcio detras de una altra
+    Join - se realiza a la vez
+    Insert - comence en un punto en concreto
+    OnComplete - llamar una funcion cuando se complete
+    AppendCallback pa meter una funcion normal donde quiera
+    DOMove().SetRelative - moure en relatiu
+    DOMove().SetSpeedbase - moure en relatiu
+    seq.Kill() - cortar una sequencia
+    Ojo con el Time.scale, depen de quina funcion pot ser que ignore el TimeScale
 
 
+    COMPONENTE EVENT TRIGGER
+        Pa que un element de UI pugue interactuar amb el canvas i tal i detectar coses. Per exemple, ficarli events a un boto OnEnterMouse apart del defaul OnClick
 
+
+    Pa meterle eventos a un animation(Read only) cuidado metelo desde el inspector
+
+
+    Potser hauries de tenir un partida controller, partida view, partida Model
 
      */
 
-    
+
 }
