@@ -55,11 +55,11 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0.45022625
+      - time: 0.4239401
         functionName: NotifyAttack
-        data: RightPunch
-        objectReferenceParameter: {instanceID: 0}
-        floatParameter: 0.25
+        data: 
+        objectReferenceParameter: {fileID: 11400000, guid: 7211abb99aa977f4eb399be6a2f84e44, type: 2}
+        floatParameter: 0
         intParameter: 0
         messageOptions: 0
       transformMask: []

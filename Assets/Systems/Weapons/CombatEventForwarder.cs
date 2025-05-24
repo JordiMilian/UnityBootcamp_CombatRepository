@@ -7,8 +7,9 @@ public class CombatEventForwarder : MonoBehaviour
     {
         weaponManager = GetComponentInParent<WeaponManager>();
     }
-    public void NotifyAttack(string attackString, float duration)
+    public void NotifyAttack(Object attackInfo)
     {
-        weaponManager.NotifyAttack(attackString, duration);
+        if(attackInfo is not MeleeAttackInfo) { throw new System.Exception("Missing Melee attack info"); }
+        weaponManager.NotifyAttack(attackInfo as MeleeAttackInfo);
     }
 }

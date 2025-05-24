@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Joe_SwordAndShield
+  m_Controller: {fileID: 9100000, guid: 6153b1f68f889d94190151f9d1ea38a6, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 589bb74f5a7adf3408ded1311455ba47, type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 5c09a584ad3cc8e4e92874e0e24d2426, type: 3}
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 545f8d8f49df1fd43a4c1e7d97203a6e, type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 54f03c8c917a3da47935ad3a86187039, type: 3}
+  - m_OriginalClip: {fileID: -203655887218126122, guid: c813ec3c9b5fe224390705e0a45fdae0, type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 0ea0a6db535760e4cb8a340fe11eafd5, type: 3}
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 5a68e6b70b481364da5d60464726c69d, type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: d5b9714163f4b1540bdd26380342ceaf, type: 3}

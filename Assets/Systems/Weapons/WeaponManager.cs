@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class WeaponManager : MonoBehaviour
 {
-    [SerializeField] Weapon_MartialArts martialArts;
-    public void NotifyAttack(string attackString,float duration)
+    [SerializeField] MeleeWeaponByHitCollider martialArts;
+    public void NotifyAttack(MeleeAttackInfo attackInfo)
     {
-        martialArts.NotifyAttack(attackString, duration);
+        martialArts.NotifyAttack(attackInfo);
     }
 }

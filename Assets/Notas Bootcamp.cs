@@ -67,6 +67,35 @@ Configuracion del punto de interrupcion
 
     Potser hauries de tenir un partida controller, partida view, partida Model
 
+
+
+    19/05/2025
+        - Debug.log("string", component) te permet que al debug se faci highlight del segon parameter en escena
+        - Serializacion: COnvertir un fixeron en YAML? NOse
+    - Save and Save Projects son dos coses (el primer salve la escena)
+    - Object i object no es lo mateix
+
+
+
+    21/05
+    BItWise logic
+    && and
+    || or
+    true and false = true   1 & 1 = 1
+    false and true = false  0 & 1 = 0
+    false and true = false  1 & 0 = 0
+    false and false = false 0 & 0 = 0
+
+    LayerMask  --> Integer de 32 bits que representa FLAGS (encendido o apagago)
+    
+    000000000000000000000  <-- 32 zeros
+
+    << --> desplaçar el binari tantes unitats el 1
+    1 << 4 =  10000
+
+    & , | , ^ , ~
+
+
      */
 
 
